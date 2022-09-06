@@ -6,6 +6,9 @@
 \usepackage{graphicx}
 \usepackage{ragged2e}
 \usepackage{hyperref}
+\usepackage{tikz}
+\tikzstyle{dot}=[circle,fill,inner sep=2pt]
+
 \makeatletter
 \newcommand{\rubric}[1]{
     \centering
@@ -60,6 +63,20 @@
 \hspace{0.05\textwidth}
 \begin{minipage}[t][0.98\textheight][t]{0.5\textwidth}
     \rubric{Education}
+
+    \begin{tikzpicture}
+        \node[dot] (2020) at (0,2) {};
+        \node[dot] (2017) at (0,1) {};
+        \node[dot] (2014) at (0,0) {};
+        \draw (2020)node[left] {2020};
+        \draw (2020)node[right] {\texttt{Ph.D.}};
+        \draw (2017)node[left] {2017};
+        \draw (2017)node[right] {\texttt{MASTER}};
+        \draw (2014)node[left] {2014};
+        \draw (2014)node[right] {\texttt{BACHELOR}};
+        \draw (2014) -- (2017) -- (2020);
+    \end{tikzpicture}
+
 
     \rubric{Publications}
 
