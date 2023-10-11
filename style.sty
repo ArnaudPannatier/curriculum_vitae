@@ -1,6 +1,7 @@
 % ============ Colors =================
 \usepackage{xcolor}
 \definecolor{SoftBlue}{HTML}{4A90E2}
+\definecolor{DeepGray}{HTML}{343434}
 \definecolor{MediumGray}{HTML}{7D7D7D}
 \definecolor{LightGray}{HTML}{D8D8D8}
 
@@ -31,14 +32,7 @@
 
 \newcommand{\montserratextrabold}[1]{{\sffamily\fontseries{xb}\selectfont\color{SoftBlue} #1}}
 
-% ============ TikZ for Graphics =================
-\usepackage{tikz}
-\tikzset{
-  timeline/.style={SoftBlue, thick},
-  dot/.style={circle, fill=SoftBlue, inner sep=0pt, minimum size=4pt},
-}
+% ============ Page Layout =================
 
-% ============ Formatting Rules =================
 \usepackage{enumitem}
-\setlist[itemize]{leftmargin=*}
-\setitemize{label=\tikz\draw[dot] (0,0) circle (0.2em);}
+\setlist[itemize]{leftmargin=4mm}
