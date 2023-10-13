@@ -1,3 +1,27 @@
+% =================== Preamble ===================
+\usepackage[a4paper]{geometry}
+\pagestyle{empty}
+\newgeometry{margin=1cm}
+\setlength{\parindent}{0pt}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=false,
+  linkcolor=deepgray,
+  filecolor=deepgray,
+  urlcolor=deepgray,
+  citecolor=deepgray,
+  anchorcolor=deepgray,
+  menucolor=deepgray,
+  runcolor=deepgray,
+  linkbordercolor={1 1 1}, % set to white
+  filebordercolor={1 1 1},
+  urlbordercolor={1 1 1},
+  citebordercolor={1 1 1},
+  pdfborder={0 0 0}
+}
+
 % ============ Colors =================
 \usepackage{xcolor}
 \definecolor{deepgray}{HTML}{343434}
@@ -35,3 +59,22 @@
 
 \usepackage{enumitem}
 \setlist[itemize]{leftmargin=4mm}
+
+% ============ Custom Commands =================
+\usepackage{tikz}
+\let\oldhrule\hrule
+\renewcommand{\hrule}{\color{lightgray}\oldhrule\color{black}}
+\makeatletter
+\newcommand{\rubric}[1]{
+  \color{mediumgray}
+  \section*{\montserratlight \large \MakeUppercase{#1}}
+  \hrule
+  \commonvspace
+  \raggedright
+}
+
+\ifFrench
+  \usepackage[french]{babel}
+\fi
+
+\newcommand{\commonvspace}{\vspace{3mm}}
