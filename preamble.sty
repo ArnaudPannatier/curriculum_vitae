@@ -6,6 +6,7 @@
 \usepackage{graphicx}
 \usepackage{ragged2e}
 \usepackage{hyperref}
+\usepackage{titlesec}
 \hypersetup{
   colorlinks=false,
   linkcolor=deepgray,
@@ -59,15 +60,19 @@
 
 \usepackage{enumitem}
 \setlist[itemize]{leftmargin=4mm}
+\titlespacing*{\section}{0pt}{2mm}{2mm}
 
 % ============ Custom Commands =================
+
+
 \usepackage{tikz}
 \let\oldhrule\hrule
 \renewcommand{\hrule}{\color{lightgray}\oldhrule\color{black}}
 \makeatletter
+
 \newcommand{\rubric}[1]{
   \color{mediumgray}
-  \section*{\montserratlight \large \MakeUppercase{#1}}
+  \section*{\montserratlight\large\strut\MakeUppercase{#1}}
   \hrule
   \commonvspace
   \raggedright
@@ -77,4 +82,4 @@
   \usepackage[french]{babel}
 \fi
 
-\newcommand{\commonvspace}{\vspace{3mm}}
+\newcommand{\commonvspace}{\vspace{2mm}}
