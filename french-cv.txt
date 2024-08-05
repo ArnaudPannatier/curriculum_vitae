@@ -1,0 +1,68 @@
+ARNAUD PANNATIER
+
+Rue des Longs-Prés 40
+3960 Sierre
++41 77 439 30 16
+arnaud.pannatier@idiap.ch
+https://arnaudpannatier.ch
+
+DOCTORAT sur les modèles à Attention et leurs applications
+Doctorant au sein du groupe de Machine Learning du Pr. François Fleuret (Idiap Research Institute, EPFL), je me concentre principalement sur les modèles à attention et leur adaptabilité à différents domaines, allant de la prédiction du vent et l’aide au contrôle aérien, à la vision par ordinateur et le traitement automatique du langage. Ma recherche s’effectue en collaboration avec le secteur industriel, abordant des problèmes concrets à partir de données réelles.
+
+ÉDUCATION
+Doctorat en Machine Learning
+Innosuisse, avec SkySoft ATM
+Idiap Research Institute, EPFL
+2020 - 2024
+
+Master en Science et ingénierie computationnelles
+Faculté de Mathématiques, EPFL
+2017 - 2020
+
+Bachelor en Physique
+Faculté de Physique, EPFL
+2014 - 2017
+
+EXPÉRIENCE PROFESSIONNELLE
+Caelum Fintech SA, Technopôle, Sierre
+Ingénieur principal, développements de la solution et création d’un outil d’analyse du Predictive Power.
+2018 - 2020 (à temps partiel)
+
+EXPÉRIENCE EN ENSEIGNEMENT
+Assistant, EPFL
+
+— Analyse Avancée 1-2 Pr. Stubbe, 2016, 2017, 2018, Supervision des exercices
+— Analyse 2 Pr. Buffoni, 2018, Supervision des exercices
+— Analyse Avancée 3 Pr. Krieger, 2018, Supervision des exercices
+— Introduction à l’apprentissage automatique Pr. Liebling, 2020, 2023, Création des exercices
+— Deep Learning Pr. Fleuret, 2021, 2022, Création et évaluation des projets
+— Information, Calcul et Communication Pr. Chappelier, 2020 - 2023, Exercices, Cours en réplique
+
+Remplacements
+
+Lycée Collège de la Planta
+Mathématiques, Mathématiques fortes
+Mme Jordan, Mme Veuthey, Mr. Petit, 1-5ème, 2017 - 2019
+
+PUBLICATIONS
+A. Pannatier, E. Courdier, F. Fleuret σ-GPTs: A New Approach to Autoregressive Models. In Proceedings of the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML/PKDD) 2024.
+A. Pannatier, K. Matoba, F. Fleuret Inference from Real-World Sparse Measurements. In Transactions on Machine Learning Research (TMLR), 2024.
+F. Mai, A. Pannatier, F. Fehr, H. Chen, F. Marelli, F. Fleuret, J. Henderson HyperMixer: An MLP-based Low Cost Alternative to Transformers. In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL), 2023. DOI: 10.18653/v1/2023.acl-long.871
+A. Pannatier, R. Picatoste, and F. Fleuret. Efficient Wind Speed Nowcasting with GPU-Accelerated Nearest Neighbors Algorithm. In Proceedings of the SIAM International Conference on Data Mining (SDM), 2022. DOI: 10.1137/1.9781611977172.37
+A. Pannatier A Control Plane in Time and Space for Locality-Preserving Blockchains. In Master Thesis, Decentralized Distributed Systems Laboratory (DEDIS), EPFL, 2020. Prix: Kudelski Award
+COMPÉTENCES
+Expert :
+PyTorch, Python, Javascript
+
+Avancé :
+Jax, C++, Go, Django, Matlab
+
+Base :
+Docker, SQL, PHP, Swift
+
+LANGUES
+Français : Langue maternelle
+Anglais : Courant
+Allemand : Connaissances de base
+
+
