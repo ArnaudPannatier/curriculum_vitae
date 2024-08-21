@@ -80,8 +80,26 @@
   \raggedright
 }
 
-\ifFrench
-  \usepackage[french]{babel}
-\fi
 
 \newcommand{\commonvspace}{\vspace{2mm}}
+
+\usepackage[english, german, french]{babel}
+\usepackage{ifthen}
+
+% Define a command to set the language
+\newcommand{\setlang}[1]{%
+  \def\lang{#1}%
+}
+
+% Define language-specific blocks using ifthen
+\newcommand{\englishblock}[1]{%
+  \ifthenelse{\equal{\lang}{english}}{#1}{}%
+}
+
+\newcommand{\germanblock}[1]{%
+  \ifthenelse{\equal{\lang}{german}}{#1}{}%
+}
+
+\newcommand{\frenchblock}[1]{%
+  \ifthenelse{\equal{\lang}{french}}{#1}{}%
+}
